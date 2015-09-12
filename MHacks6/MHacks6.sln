@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
 Project("{E288BCD0-1F66-5D4A-28F7-5B58521FC3FA}") = "MHacks6", "Assembly-CSharp.csproj", "{9DF82D15-0578-9AF7-E027-6FB6E6976EAD}"
 EndProject
 Project("{E288BCD0-1F66-5D4A-28F7-5B58521FC3FA}") = "MHacks6", "Assembly-CSharp-Editor.csproj", "{34B6FFAA-B9F5-E44B-5C3B-280AA39FA495}"
+=======
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHacks6.CSharp", "MHacks6.CSharp.csproj", "{7DDE1B09-7F29-A5C3-1AFC-F9E19590A640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHacks6.CSharp.Editor", "MHacks6.CSharp.Editor.csproj", "{820BAD9F-1D67-7088-280F-C422DCB7B032}"
+>>>>>>> master
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +20,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{9DF82D15-0578-9AF7-E027-6FB6E6976EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9DF82D15-0578-9AF7-E027-6FB6E6976EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DF82D15-0578-9AF7-E027-6FB6E6976EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -19,10 +29,21 @@ Global
 		{34B6FFAA-B9F5-E44B-5C3B-280AA39FA495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B6FFAA-B9F5-E44B-5C3B-280AA39FA495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B6FFAA-B9F5-E44B-5C3B-280AA39FA495}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{7DDE1B09-7F29-A5C3-1AFC-F9E19590A640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDE1B09-7F29-A5C3-1AFC-F9E19590A640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDE1B09-7F29-A5C3-1AFC-F9E19590A640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDE1B09-7F29-A5C3-1AFC-F9E19590A640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820BAD9F-1D67-7088-280F-C422DCB7B032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820BAD9F-1D67-7088-280F-C422DCB7B032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820BAD9F-1D67-7088-280F-C422DCB7B032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820BAD9F-1D67-7088-280F-C422DCB7B032}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> master
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
@@ -43,4 +64,6 @@ Global
 		$3.scope = text/plain
 	EndGlobalSection
 
+=======
+>>>>>>> master
 EndGlobal
