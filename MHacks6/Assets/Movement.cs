@@ -5,6 +5,7 @@ public class Movement : MonoBehaviour {
 
 	public float speed;
 	public GameObject cam;
+	public GameObject gc;
 	public Rigidbody rb;
 	public GameObject ifThisWorksIllCry; //I crid
 	private int lives; 
@@ -29,8 +30,9 @@ public class Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Vector3.Distance (transform.position, camPos) < 1) {
+		if (Vector3.Distance (transform.position, camPos) < 10) {
 			Destroy(ifThisWorksIllCry);
+			GameObject.FindGameObjectWithTag("GameController").GetComponent<HealthBar>().TakeDamage(20);
 		}
 	}
 

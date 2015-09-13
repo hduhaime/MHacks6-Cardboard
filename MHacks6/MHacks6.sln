@@ -2,7 +2,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
 Project("{E288BCD0-1F66-5D4A-28F7-5B58521FC3FA}") = "MHacks6", "Assembly-CSharp.csproj", "{9DF82D15-0578-9AF7-E027-6FB6E6976EAD}"
-
 EndProject
 Project("{E288BCD0-1F66-5D4A-28F7-5B58521FC3FA}") = "MHacks6", "Assembly-CSharp-Editor.csproj", "{34B6FFAA-B9F5-E44B-5C3B-280AA39FA495}"
 EndProject
@@ -24,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																														GlobalSection(MonoDevelopProperties) = preSolution
+																																												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -14,7 +14,7 @@ public class ScoreDisplay : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 
         scoreText = scoreCanvas.GetComponent<Text>();
         scoreText.text = scoreText2.text = "Score: 0";
@@ -30,5 +30,7 @@ public class ScoreDisplay : MonoBehaviour {
 
     }
 
-    public void addPoints(int points) { score += points;  }
+    public void addPoints(int points) { score += points;  
+		Debug.Log ("Hit");
+	}
 }

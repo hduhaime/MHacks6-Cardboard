@@ -15,7 +15,7 @@ public class EnemyScript : MonoBehaviour {
 		private float nextSpawn = 0.0F;
 		private int level = 1;
 		private int maxLives = 0;
-		private int waveNum = 0;
+		public int waveNum = 0;
 
 	void Start() {
 
@@ -29,24 +29,26 @@ public class EnemyScript : MonoBehaviour {
 				nextSpawn = Time.time + (Random.value * 3 + spawnRate);
 				Instantiate (enemy, GenerateStart (), Quaternion.identity);
 				enemy.GetComponent<Movement> ().setLives ((int)(Random.value * (maxLives-1))+1);
-				enemy.GetComponent<Movement> ().setSpeed((Random.value * maxLives)+3);
-				Debug.Log (numEnemy);
+				//enemy.GetComponent<Movement> ().setSpeed((Random.value * maxLives)+3);
+				//Debug.Log (numEnemy);
 			} 
 		} else {
-			numEnemy = 0;
-			waveNum = (level-1)*5+5;
-			Debug.Log(waveNum);
-			level++;
-			if(maxLives < 4){
-				maxLives++;
-			}
+			//if(GameObject.FindGameObjectWithTag("Enemy") == null){
+				numEnemy = 0;
+				waveNum = (level-1)*5+5;
+				//Debug.Log(waveNum);
+				level++;
+				if(maxLives < 4){
+					maxLives++;
+				}
+		//	}
 		}
 	}
 
 Vector3 GenerateStart(){
-		int x = (int)(Random.Range(10,xRange))*(int)(Random.value*2)-1;
-		int z = (int)(Random.Range(10,zRange))*(int)(Random.value*2)-1;
-		int y = (int)(Random.Range(10,yRange));
+		int x = (int)(Random.Range(100,xRange))*(int)(Random.value*2)-1;
+		int z = (int)(Random.Range(100,zRange))*(int)(Random.value*2)-1;
+		int y = (int)(Random.Range(80,yRange));
 
 	//	int x = (int)(Random.value*20);
 	//	int z = (int)(Random.value *20);

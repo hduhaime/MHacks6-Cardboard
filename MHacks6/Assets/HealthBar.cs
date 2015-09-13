@@ -76,6 +76,19 @@ public class HealthBar : MonoBehaviour {
         // Set the death flag so this function won't be called again.
         isDead = true;
 
+		GetComponent<ScoreDisplay> ().Start();
+
+		//var GameObject[] gameObjects;// = new GameObject[GetComponent<EnemyScript>(). waveNum];
+		
+		//gameObjects =  GameObject.FindGameObjectsWithTag ("Enemy");
+		
+		//for(var i = 0 ; i < gameObjects.length ; i ++)
+		//	Destroy(gameObjects[i]);
+
+		Awake ();
+
+		isDead = false;
+
 
         // Set the audiosource to play the death clip and play it (this will stop the hurt sound from playing).
         //playerAudio.clip = deathClip;
