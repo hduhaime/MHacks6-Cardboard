@@ -5,6 +5,7 @@ Cmd: compileSnippet
   api=4 type=0 insize=7608 outsize=4938 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_LINEAR pd= ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=7608 outsize=3825 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_LINEAR pd= ok=1
+
 Cmd: compileSnippet
   api=4 type=0 insize=5003 outsize=4174 kw=DIRECTIONAL FOG_LINEAR pd= ok=1
 Cmd: compileSnippet
