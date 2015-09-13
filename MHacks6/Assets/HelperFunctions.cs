@@ -15,7 +15,7 @@ public class HelperFunctions : MonoBehaviour {
 
     public void startGame()
     {
-        Application.LoadLevel("MainGame");
+        Application.LoadLevel("Countdown");
     }
 
     public void stopGame()

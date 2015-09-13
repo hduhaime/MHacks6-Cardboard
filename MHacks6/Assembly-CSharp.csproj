@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bullet\Mover.cs" />
      <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUI.cs" />
      <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUIMouse.cs" />
      <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUIWindow.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets\Cardboard\Scripts\CardboardProfile.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardUILayer.cs" />
      <Compile Include="Assets\Cardboard\Scripts\GazeInputModule.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
      <Compile Include="Assets\Cardboard\Scripts\RadialUndistortionEffect.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
@@ -66,6 +68,9 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+     <Compile Include="Assets\Countdown.cs" />
+     <Compile Include="Assets\Edges\DestroyByBoundary.cs" />
+     <Compile Include="Assets\EnemyScript.cs" />
      <Compile Include="Assets\Examples\Scripts\ConsoleBase.cs" />
      <Compile Include="Assets\Examples\Scripts\GameGroupsConsole.cs" />
      <Compile Include="Assets\Examples\Scripts\InteractiveConsole.cs" />
@@ -82,8 +87,14 @@
      <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
      <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
      <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\FacebookLogin.cs" />
+=======
+     <Compile Include="Assets\HealthBar.cs" />
+>>>>>>> c391f57898f87323f42bdcacab63dd340a5fdeba
      <Compile Include="Assets\HelperFunctions.cs" />
+     <Compile Include="Assets\Movement.cs" />
+     <Compile Include="Assets\ScoreDisplay.cs" />
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
      <None Include="Assets\Cardboard\Legacy\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
@@ -139,10 +150,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>C:/Users/mrjoh_000/Desktop/MHacks6-Cardboard/MHacks6/Assets/Parse.Unity.dll</HintPath>
+ <HintPath>C:/Users/Henry/Desktop/MHacks6-Cardboard/MHacks6/Assets/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="IFacebook">
- <HintPath>C:/Users/mrjoh_000/Desktop/MHacks6-Cardboard/MHacks6/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ <HintPath>C:/Users/Henry/Desktop/MHacks6-Cardboard/MHacks6/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
