@@ -87,7 +87,11 @@
      <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
      <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
      <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\FacebookLogin.cs" />
+=======
      <Compile Include="Assets\HealthBar.cs" />
+>>>>>>> c391f57898f87323f42bdcacab63dd340a5fdeba
      <Compile Include="Assets\HelperFunctions.cs" />
      <Compile Include="Assets\Movement.cs" />
      <Compile Include="Assets\ScoreDisplay.cs" />
