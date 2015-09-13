@@ -76,7 +76,8 @@ public class HealthBar : MonoBehaviour {
         // Set the death flag so this function won't be called again.
         isDead = true;
 
-	//	Application.LoadLevel ("EndScreen");
+        int score = GameObject.FindGameObjectWithTag("GameController").GetComponent<ScoreDisplay>().getScore();
+		Application.LoadLevel ("EndScreen");
 
 	//	GetComponent<ScoreDisplay> ().Start();
 

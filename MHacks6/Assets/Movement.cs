@@ -39,6 +39,7 @@ public class Movement : MonoBehaviour {
 		if (Vector3.Distance (transform.position, camPos) < 30) {
 			Destroy(ifThisWorksIllCry);
 			GameObject.FindGameObjectWithTag("GameController").GetComponent<HealthBar>().TakeDamage(10);
+            Handheld.Vibrate();
 		}
 	}
 

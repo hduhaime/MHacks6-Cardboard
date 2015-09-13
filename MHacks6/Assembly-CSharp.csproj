@@ -69,6 +69,7 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\Countdown.cs" />
+     <Compile Include="Assets\Countdown2.cs" />
      <Compile Include="Assets\Edges\DestroyByBoundary.cs" />
      <Compile Include="Assets\EnemyScript.cs" />
      <Compile Include="Assets\Examples\Scripts\ConsoleBase.cs" />
@@ -87,13 +88,11 @@
      <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
      <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
      <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\FacebookLogin.cs" />
-=======
      <Compile Include="Assets\HealthBar.cs" />
->>>>>>> c391f57898f87323f42bdcacab63dd340a5fdeba
      <Compile Include="Assets\HelperFunctions.cs" />
      <Compile Include="Assets\Movement.cs" />
+     <Compile Include="Assets\ResetGame.cs" />
      <Compile Include="Assets\ScoreDisplay.cs" />
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
      <None Include="Assets\Cardboard\Legacy\Resources\SkyboxMesh.shader" />
