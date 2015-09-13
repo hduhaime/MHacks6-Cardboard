@@ -13,10 +13,16 @@ public class Movement : MonoBehaviour {
 	private Vector3 target;
 	public Vector3 camPos;
 
+	public bool ground;
+
 	// Use this for initialization
 	void Start() {
 
-		camPos = cam.transform.position;
+		if (!ground) {
+			camPos = cam.transform.position;
+		} else {
+			camPos = Vector3.zero;
+		}
 
 		target = camPos - transform.position;
 		target.Normalize();
@@ -30,9 +36,10 @@ public class Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Vector3.Distance (transform.position, camPos) < 10) {
+		if (Vector3.Distance (transform.position, camPos) < 30) {
 			Destroy(ifThisWorksIllCry);
-			GameObject.FindGameObjectWithTag("GameController").GetComponent<HealthBar>().TakeDamage(20);
+			GameObject.FindGameObjectWithTag("GameController").GetComponent<HealthBar>().TakeDamage(10);
+            Handheld.Vibrate();
 		}
 	}
 

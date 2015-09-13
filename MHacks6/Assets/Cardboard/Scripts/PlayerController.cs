@@ -18,9 +18,13 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        AudioSource audio = GetComponent<AudioSource>();
+
         if (player.Triggered){
             animator.SetTrigger("FIRE");
             Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+            audio.Play();
         }
         
 	}

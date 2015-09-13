@@ -293,6 +293,11 @@ public sealed class FB : ScriptableObject
         FacebookImpl.GameGroupJoin(id, callback);
     }
 
+    internal static void Init()
+    {
+        throw new NotImplementedException();
+    }
+
     #region App Events
     public sealed class AppEvents
     {

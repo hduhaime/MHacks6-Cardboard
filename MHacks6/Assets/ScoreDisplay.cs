@@ -31,6 +31,11 @@ public class ScoreDisplay : MonoBehaviour {
     }
 
     public void addPoints(int points) { score += points;  
-		Debug.Log ("Hit");
+		//Debug.Log ("Hit");
 	}
+
+    public int getScore()
+    {
+        return score;
+    }
 }
